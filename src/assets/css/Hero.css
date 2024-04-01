@@ -1,0 +1,53 @@
+.header {
+  margin-top: 10px;
+  /* background: rgb(188, 122, 96); */
+}
+
+.filterDiv {
+  display: flex;
+  gap: 20px;
+}
+
+.filterDiv input {
+  background-color: rgb(211, 190, 231);
+  border-radius: 6px;
+  padding: 4px;
+}
+.main-Container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0px 20px 0 20px;
+  overflow-x: scroll;
+}
+
+.boxHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body {
+  background-color: rgb(181, 140, 219);
+}
+
+.dateInput {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+}
+
+.card-Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}

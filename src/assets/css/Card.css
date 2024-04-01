@@ -1,0 +1,21 @@
+.outer-card{
+    height: 450px;
+    /* overflow: scroll; */
+    /* width: 100%; */
+    padding: 0;
+}
+
+.inner-card{
+    height: fit-content;
+    /* margin-top: 20px; */
+    width: 100%;
+    margin:20px 0px 20px 8px;
+    /* margin-left:8px */
+}
+
+.inner-card:first-child{
+    margin-top: 0px;
+}
+::-webkit-scrollbar {
+  width: 1rem;
+}
